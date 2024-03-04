@@ -1,0 +1,337 @@
+body {
+    margin: 0rem;
+    background-color: #232323;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    /* text-align: center; */
+    margin-top: 0px;
+}
+
+p {
+    font-family: "PT serif", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* .bg-img {
+    padding: 0rem 10rem;
+    margin: 0rem;
+    background-image: url(imgnet/NG-en-20240226-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  
+} */
+
+.container {
+    position: relative;
+    background-image: url(imgnet/NG-en-20240226-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0rem 10rem 10rem 10rem;
+    margin: 0rem;
+    margin-top: 0px;
+    font-weight: 600;
+    z-index: 1;
+
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.container h1 {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+}
+
+.container p {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    /* background-color: aqua; */
+}
+
+.logo {
+    width: 13rem;
+    height: 5rem;
+    z-index: 1;
+}
+
+.button-one {
+    font-family: "Montserrat", sans-serif;
+    padding: 10px 1.3rem;
+    background-color: red;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.sign {
+    text-decoration: none;
+    color: white;
+}
+
+.section-one {
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.email {
+    width: 23rem;
+    height: 3.2rem;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 2rem;
+    background: none;
+}
+
+::placeholder {
+    color: white;
+    opacity: 80%;
+    font-size: 1rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-two {
+    background-color: red;
+    justify-content: center;
+    padding: 14px 1.5rem;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.get-started {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+
+.section-three {
+    background-color: black;
+    padding: 0rem 10rem 5rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.section-three h1 {
+    margin-top: 10px;
+    padding-top: 13rem;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 15px;
+}
+
+
+.tv {
+    width: 480px;
+    padding-top: 4rem;
+}
+
+.section-four {
+    background-color: black;
+    padding: 2rem 10rem 7rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.section-four h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 700;
+    margin-bottom: 1px;
+    /* padding-bottom: 0px; */
+}
+
+.view {
+    width: 530px;
+    height: 480px;
+}
+
+.kids {
+    width: 505px;
+    height: 400px;
+    padding-top: 2rem;
+}
+
+.four {
+    gap: 2.3rem;
+}
+
+.two {
+    display: block;
+    padding: 5rem 15rem;
+    line-height: 2rem;
+}
+
+.p-p {
+    font-size: 1.3rem;
+    font-family: "Montserrat", sans-serif;
+    line-height: 2rem;
+}
+
+.section-five {
+    background-color: black;
+    padding: 5rem 10rem;
+    text-align: center;
+    margin-top: 10px;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+.section-five h1 {
+    font-size: 3rem;
+}
+
+.divs {
+    background-color: #232323;
+    padding: 0.5rem 2rem;
+    border: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.divs:hover {
+    background-color: #414141;
+}
+
+.plus {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.p-two {
+    margin-top: 3.4rem;
+    font: 1.4rem sans-serif;
+}
+
+.address {
+    background: #0F0F0F;
+}
+
+.last {
+    padding: 5rem 10rem;
+
+}
+
+.div-one {
+    display: block;
+    line-height: 3rem;
+    font-family: "Montserrat", sans-serif;
+    opacity: 80%;
+
+}
+
+.link {
+    color: white;
+    font-weight: 300;
+}
+
+
+.select {
+    padding: 7px 2rem;
+    background-color: #0F0F0F;
+    color: #fff;
+    border-radius: 10px;
+    border: 4px solid #fff;
+    border-style: double;
+    border-width: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.select::before {}
+
+.net {
+    text-decoration: none;
+}
+
+
+
+
+
+/* sign in */
+.bg-image {
+    position: relative;
+    background-image: url(imgnet/NG-en-20240226-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem 2rem;
+    margin: 0rem;
+    margin-top: 0px;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.bg-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+
+
+.section-two {
+    background: transparent;
+    padding: 5rem;
+    background-color: black;
+    opacity: 50%;
+    align-items: center;
+}
+
+.bg-image h1 {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-family: sans-serif;
+    text-align: left;
+}
+/* .icon {
+    color: #fff;
+} */
