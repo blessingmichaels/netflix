@@ -619,9 +619,6 @@ p {
         border: 2px solid #414141;
     }
 
-    /* .cont-net p {
-    font-size: 4vw !important;
-} */
     .p-six {
         text-align: center !important;
         font-size: 2.3vw !important;
@@ -726,18 +723,18 @@ p {
         padding: 3rem 5rem;
         display: flex;
         flex-direction: row;
-         gap: 2rem;
+         gap: 1rem;
     }
 
 
     .link {
         color: white;
-        font-weight: 300;
-        font-size: 3vw;
+        font-weight: 200;
+        font-size: 2vw;
         line-height: 1vh;
     }
     .select {
-        padding: 5px 1rem;
+        padding: 3px .5rem;
         background-color: #0F0F0F;
         color: #fff;
         border-radius: 10px;
@@ -749,6 +746,9 @@ p {
         font-family: "Montserrat", sans-serif;
         margin-top: 1rem;
         margin-bottom: 2rem;
+    }
+    body {
+        /* overflow-y: hidden; */
     }
 }
 
@@ -1049,7 +1049,7 @@ p {
     .link {
         color: white;
         font-weight: 300;
-        font-size: 2vw;
+        font-size: 1.5vw;
         line-height: 2vh;
 
     }
@@ -1057,6 +1057,7 @@ p {
     .last {
         display: flex;
         flex-direction: row;
+        gap: 1.5rem;
     }
 
     .select {
