@@ -1,6 +1,7 @@
 body {
     margin: 0rem;
     background-color: #232323;
+    
 }
 
 h1 {
@@ -438,9 +439,6 @@ p {
 
 
 @media (max-width: 575.98px) {
-    body {
-        overflow-x: hidden;
-    }
 
     .container {
         padding: 0rem 3rem 3rem 3rem;
@@ -533,7 +531,6 @@ p {
         height: 150px;
         background-size: cover;
         background-repeat: no-repeat;
-        /* background-color: rgba(189, 231, 248, 0.8); */
 
     }
 
@@ -591,13 +588,14 @@ p {
         justify-content: space-between;
         margin-top: 10px;
         align-items: center;
+        /* background-color: yellow !important; */
 
     }
 
     .tv-view {
-        background-image: url(imgnet/mobile-0819.jpg);
+        /* background-image: url(imgnet/mobile-0819.jpg); */
         position: relative;
-        width: 500px;
+        width: 300px;
         height: 350px;
         background-size: contain;
         background-repeat: no-repeat;
@@ -609,14 +607,15 @@ p {
         gap: 2rem;
         height: 70px;
         max-width: 700px !important;
-        background-color: black;
+        /* background-color: black; */
         position: absolute;
         z-index: 1;
-        top: 19rem;
+        top: 12rem;
         border-radius: 10px;
-        left: 6rem;
+        left: 1rem;
         padding: 10px 2rem;
         border: 2px solid #414141;
+
     }
 
     .p-six {
@@ -720,7 +719,7 @@ p {
     line-height: 2vh;
 }
     .last {
-        padding: 3rem 5rem;
+        padding: 3rem 4rem;
         display: flex;
         flex-direction: row;
          gap: 1rem;
@@ -908,7 +907,7 @@ p {
 
 
     .tv-view {
-        background-image: url(imgnet/mobile-0819.jpg);
+        /* background-image: url(imgnet/mobile-0819.jpg); */
         position: relative;
         width: 500px;
         height: 400px;
