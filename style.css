@@ -12,6 +12,9 @@ h1 {
     margin-top: 0px;
 }
 
+.breaky {
+    display: none;
+}
 p {
     font-family: "PT serif", sans-serif;
     /* font-family: "Montserrat", sans-serif; */
@@ -41,7 +44,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .container h1 {
@@ -92,6 +95,7 @@ p {
     text-align: center;
     margin-top: 15rem;
 }
+
 
 .email {
     width: 23rem;
@@ -436,13 +440,23 @@ p {
     text-align: left;
 }
 
+.mobile {
+    display: none;
+}
+
+
+
+
 
 
 @media (max-width: 575.98px) {
 
     .container {
-        padding: 0rem 3rem 3rem 3rem;
+        padding: 0rem 2rem 3rem 2rem;
 
+    }
+    .breaky {
+        display: block;
     }
 
     .logo {
@@ -503,7 +517,7 @@ p {
 
 
     .section-three {
-        padding: 0rem 0rem 3rem 0rem;
+        padding: 0rem 0rem 2rem 0rem;
         align-items: center !important;
         display: flex;
         flex-direction: column;
@@ -516,13 +530,13 @@ p {
         margin-top: 0px;
         padding-top: 10vh;
         font-weight: 600;
-        font-size: 5vw;
+        font-size: 8vw;
         height: 2vh;
     }
 
     .section-three p {
-        font-size: 2.5vw;
-        line-height: 2vh;
+        font-size: 4vw;
+        line-height: 3vh;
     }
 
     .tv-bg {
@@ -582,7 +596,7 @@ p {
 
 
     .section-four {
-        padding: 2rem 0rem 3rem 0rem;
+        padding: 2rem 0rem 2rem 0rem;
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-between;
@@ -620,16 +634,19 @@ p {
 
     .p-six {
         text-align: center !important;
-        font-size: 2.3vw !important;
+        font-size: 4vw !important;
         padding-bottom: 2rem !important;
 
     }
 
+    .break {
+        display: none;
+    }
     .h-six {
         text-align: center !important;
         font-weight: 500 !important;
-        font-size: 6vw !important;
-        line-height: 4vh !important;
+        font-size: 8vw !important;
+        line-height: 6vh !important;
         margin-bottom: 1px;
         padding-top: 2rem !important;
     }
@@ -647,34 +664,34 @@ p {
 
     .four h1 {
         text-align: center;
-        font-size: 5vw;
-        line-height: 4vh;
+        font-size: 8vw;
+        line-height: 6vh;
     }
 
     .four p {
         text-align: center;
-        font-size: 2.5vw;
-        line-height: 2vh;
+        font-size: 4vw;
+        line-height: 3vh;
     }
 
     .two {
         display: flex;
         flex-direction: column !important;
-        padding: 3rem 7rem;
+        padding: 3rem 2rem;
         line-height: 1rem;
     }
 
     .two h1 {
-        font-size: 3.5vw !important;
-        line-height: 1vh !important;
+        font-size: 8vw !important;
+        line-height: 5vh !important;
         text-align: center;
     }
-
+    
 
     .two p {
-        font-size: 1.8vw !important;
-        font-weight: 400;
-        line-height: 1.5vh !important;
+        font-size: 4vw !important;
+        font-weight: 600;
+        line-height: 3vh !important;
         text-align: center;
     }
 
@@ -687,7 +704,7 @@ p {
 
     .section-five {
         background-color: black;
-        padding: 2rem 4rem;
+        padding: 2rem 2rem;
         text-align: center;
         margin-top: 10px;
         font-family: sans-serif;
@@ -719,7 +736,7 @@ p {
     line-height: 2vh;
 }
     .last {
-        padding: 3rem 4rem;
+        padding: 2rem 2rem;
         display: flex;
         flex-direction: row;
          gap: 1rem;
@@ -727,10 +744,16 @@ p {
 
 
     .link {
-        color: white;
+        color: gray !important;
         font-weight: 200;
-        font-size: 2vw;
-        line-height: 1vh;
+        font-size: 4vw;
+        line-height: 5vh;
+    }
+
+
+    .two-columns {
+        display: flex;
+        gap: 5rem;
     }
     .select {
         padding: 3px .5rem;
@@ -745,9 +768,15 @@ p {
         font-family: "Montserrat", sans-serif;
         margin-top: 1rem;
         margin-bottom: 2rem;
+
     }
-    body {
-        /* overflow-y: hidden; */
+
+    .large-screen {
+        display: none;
+    }
+    
+    .mobile {
+        display: block;
     }
 }
 
@@ -756,7 +785,7 @@ p {
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     .container {
-        padding: 0rem 5rem 3rem 5rem;
+        padding: 0rem 2rem 3rem 2rem;
 
     }
 
@@ -769,13 +798,12 @@ p {
         font-size: 6.3vw;
         font-weight: 600 !important;
         color: white;
-        /* text-align: center; */
     }
 
     .container p {
         text-align: center;
         font-size: 4.5vw !important;
-        font-weight: 100 !important;
+        font-weight: 600 !important;
     }
 
     .button-one {
@@ -963,6 +991,9 @@ p {
         padding: 3rem 0rem;
     }
 
+    .breaky {
+        display: block;
+    }
     .four h1 {
         text-align: center;
         font-size: 5vw;
@@ -1005,7 +1036,7 @@ p {
 
     .section-five {
         background-color: black;
-        padding: 2rem 4rem;
+        padding: 2rem 2rem;
         text-align: center;
         margin-top: 10px;
         font-family: sans-serif;
@@ -1042,6 +1073,7 @@ p {
         display: block;
         line-height: 3vh;
         font-family: "Montserrat", sans-serif;
+        flex-direction: row;
         opacity: 80%;
     }
 
@@ -1055,8 +1087,19 @@ p {
 
     .last {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 1.5rem;
+    }
+.last-last {
+    flex-direction: column;
+}
+    .first-div {
+        order: 0;
+    }
+
+    .second-div{
+        order: 1;
+        flex-direction: row;
     }
 
     .select {
@@ -1084,7 +1127,7 @@ p {
     }
 
     .container {
-        padding: 1rem 5rem 4rem 5rem !important;
+        padding: 1rem 3rem 4rem 3rem !important;
 
     }
 
@@ -1110,7 +1153,7 @@ p {
     .section-one {
         text-align: center;
         margin-top: 8rem;
-        padding: 0rem 5rem;
+        padding: 0rem 3rem;
     }
 
     .email {
@@ -1131,9 +1174,11 @@ p {
         font-size: 1.5vw;
     }
 
-
+    .break {
+        display: none;
+    }
     .section-three {
-        padding: 2rem 6rem 5rem 6rem;
+        padding: 2rem 2rem 5rem 4rem;
         /* gap: 5rem; */
     }
 
@@ -1199,7 +1244,7 @@ p {
     }
 
     .section-four {
-        padding: 2rem 4rem 2rem 4rem;
+        padding: 2rem 2rem 2rem 1rem;
     }
 
     .section-four h1 {
@@ -1285,8 +1330,8 @@ p {
 
 }
 
-// Large devices (desktops, 992px and up)
+/* // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {} */
