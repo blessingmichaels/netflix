@@ -44,7 +44,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 .container h1 {
@@ -444,6 +444,9 @@ p {
     display: none;
 }
 
+.breakie {
+    display: none;
+}
 
 
 
@@ -451,6 +454,10 @@ p {
 
 @media (max-width: 575.98px) {
 
+
+    body {
+        font-family: sans-serif !important;
+    }
     .container {
         padding: 0rem 2rem 3rem 2rem;
 
@@ -465,7 +472,7 @@ p {
     }
 
     .container h1 {
-        font-size: 6.3vw;
+        font-size: 7vw;
         font-weight: 600 !important;
         color: white;
         /* text-align: center; */
@@ -696,7 +703,7 @@ p {
     }
 
     .p-p {
-        font-size: 2vw;
+        font-size: 4.5vw;
         font-family: "Montserrat", sans-serif;
         line-height: 2vh;
     }
@@ -744,10 +751,12 @@ p {
 
 
     .link {
-        color: gray !important;
+        color: #ccc !important;
         font-weight: 200;
+        opacity: 50%;
         font-size: 4vw;
         line-height: 5vh;
+        font-family: sans-serif;
     }
 
 
@@ -769,6 +778,9 @@ p {
         margin-top: 1rem;
         margin-bottom: 2rem;
 
+    }
+    .breakie {
+        display: block;
     }
 
     .large-screen {
@@ -1028,7 +1040,7 @@ p {
     }
 
     .p-p {
-        font-size: 2vw;
+        font-size: 4vw;
         font-family: "Montserrat", sans-serif;
         line-height: 2vh;
     }
@@ -1167,11 +1179,11 @@ p {
     }
 
     .button-two {
-        padding: 8px 1.3rem;
+        padding: 1.15rem 2rem;
     }
 
     .get-started {
-        font-size: 1.5vw;
+        font-size: 2vw;
     }
 
     .break {
@@ -1244,7 +1256,7 @@ p {
     }
 
     .section-four {
-        padding: 2rem 2rem 2rem 1rem;
+        padding: 2rem 2rem 2rem 0;
     }
 
     .section-four h1 {
@@ -1282,13 +1294,19 @@ p {
         background-color: black;
         position: absolute;
         z-index: 1;
-        top: 12rem;
+        top: 14rem;
         border-radius: 10px;
-        left: 4.5rem;
+        left: 4rem;
         padding: 10px 2rem;
         border: 2px solid #414141;
     }
 
+    .breaky {
+        display: block;
+    }
+    .show {
+        display: none;
+    }
     .cont-net p {
         font-size: 1.5vw;
     }
@@ -1318,14 +1336,30 @@ p {
 
     .two {
         display: block;
-        padding: 5rem 10rem;
+        padding: 5rem;
         line-height: 2rem;
     }
 
+    .two h1 {
+        font-size: 8vw;
+    }
+
+    /* .show {
+        display: none;
+    } */
     .p-p {
-        font-size: 1.3rem;
+        font-size: 3vw;
         font-family: "Montserrat", sans-serif;
         line-height: 2rem;
+    }
+    .section-five {
+        padding-left:  2rem;
+        padding-right: 2rem;
+    }
+    
+    .last {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
 }
