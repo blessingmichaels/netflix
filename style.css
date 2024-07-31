@@ -71,11 +71,15 @@ p {
     padding-top: 1rem;
     /* background-color: aqua; */
 }
+.nav-bar a {
+    z-index: 1;
+}
 
 .logo {
     width: 13rem;
     height: 5rem;
     z-index: 1;
+    cursor: pointer;
 }
 
 .button-one {
