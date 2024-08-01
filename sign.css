@@ -185,3 +185,90 @@ select {
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
+
+.small-screen{
+    display: none;
+}
+
+ 
+
+
+@media  (max-width: 576.98px){
+.bg-img {
+   background: none;
+   display: none;
+}
+.bg-img::before {
+    display: none;
+    
+}
+
+.small-screen {
+    display: block;
+    visibility: visible;
+}
+
+.section-two {
+    display: none;
+}
+
+.glass-content {
+    display: none;
+}
+
+.logo-box {
+    padding: 5%;
+}
+
+.logo {
+    width: 7.5rem;
+    height: 5rem;
+    z-index: 1;
+    cursor: pointer;
+    filter:none;
+    color: red !important;
+}
+
+.headig-one {
+    color: white;
+    font-size: 1.8rem;
+}
+
+/* input {
+    height: 2.5rem;
+} */
+.sections {
+    padding: 0% 5%;
+}
+
+.section-three {
+    display: none;
+}
+.two-div {
+    display: flex;
+}
+
+.div-one {
+    margin: 7rem 0 0rem;
+    padding: 5%;
+    border-top: 1px solid gray;
+    border-width: 100%;
+}
+
+.div-one a {
+    color: gray;
+    margin: 1rem 0;
+    font-size: .8rem;
+}
+
+select {
+    padding: 7px 1rem;
+}
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px){
+
+}
