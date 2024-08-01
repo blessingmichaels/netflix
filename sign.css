@@ -193,7 +193,7 @@ select {
  
 
 
-@media  (max-width: 576.98px){
+@media  (max-width: 620px){
 .bg-img {
    background: none;
    display: none;
@@ -234,9 +234,17 @@ select {
     font-size: 1.8rem;
 }
 
-/* input {
-    height: 2.5rem;
-} */
+input {
+    width: 99%;
+    background: transparent;
+    height: 3rem;
+    border: 1px solid gray;
+    border-style: double;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 1rem;
+    margin: .6rem 0;
+}
 .sections {
     padding: 0% 5%;
 }
@@ -249,16 +257,19 @@ select {
 }
 
 .div-one {
-    margin: 7rem 0 0rem;
+    margin:  0rem;
     padding: 5%;
-    border-top: 1px solid gray;
-    border-width: 100%;
+}
+
+.div-border {
+    border-bottom: 1px solid gray;
+    padding-bottom: 7rem;
 }
 
 .div-one a {
     color: gray;
     margin: 1rem 0;
-    font-size: .8rem;
+    font-size: .9rem;
 }
 
 select {
@@ -269,6 +280,12 @@ select {
 
 
 
-@media (min-width: 576px) and (max-width: 767.98px){
+@media (min-width: 621px) and (max-width: 767.98px){
+   
+    /* .section-three {
+        display: none;
+    } */
+
+
 
 }
