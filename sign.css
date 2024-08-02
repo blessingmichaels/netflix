@@ -280,12 +280,53 @@ select {
 
 
 
-@media (min-width: 621px) and (max-width: 767.98px){
+@media (min-width: 621px) and (max-width: 768px){
    
-    /* .section-three {
-        display: none;
-    } */
+
+    .logo {
+        width: 7.5rem;
+        
+    }
+    .glass-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 2rem 4rem;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 5px;
+        text-align: center;
+        width: 40vw !important;
+    }
 
 
 
 }
+
+@media (min-width: 800px) and (max-width: 1200px){
+    body {
+        padding: 0;
+        margin: 0;
+        background-color: black;
+        font-family: sans-serif;
+    }
+    
+    .bg-img {
+        height: 95vh;
+    
+    }
+    .glass-content {
+        width: 40vw;
+        top: 50%;
+
+    }
+}
+
+@media (width: 1114px){
+    .glass-content {
+        width: 30vw;
+        top: 50%;
+
+    }
+}
+
